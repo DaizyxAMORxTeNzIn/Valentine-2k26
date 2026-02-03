@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="Valentine.css">
+</head>
+<body>
+    <div class="valentine-container" id="container">
+        <!-- Background hearts will be added by JavaScript -->
+        
+        <div class="card" id="card">
+            <div id="initialView">
+                <div style="font-size: 4rem; margin-bottom: 20px;">💝</div>
+                <h1 class="title">Will You Be My Valentine?</h1>
+                <p class="subtitle">
+                    I promise to make this Valentine's Day absolutely unforgettable! 🌹
+                </p>
+
+                <div class="buttons-layout">
+                    <button id="yesButton" class="yes-button">
+                        YES! 💕
+                    </button>
+                    <button id="noButton" class="no-button">
+                        No
+                    </button>
+                </div>
+            </div>
+
+            <div id="successView" class="hidden">
+                <h1 class="success-title">YESSS! 🎉</h1>
+                <p class="success-message">I knew you'd say yes!</p>
+                <p class="success-message">You've made me the happiest person! ❤️</p>
+                <div style="font-size: 5rem; margin-top: 20px;">💖</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    </body>
+</html>
